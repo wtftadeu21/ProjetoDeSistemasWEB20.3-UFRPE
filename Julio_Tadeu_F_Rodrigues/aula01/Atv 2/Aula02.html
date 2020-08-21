@@ -1,0 +1,72 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Formulario WEB</title>
+    <meta author="Júlio Tadeu">
+
+</head>
+
+<body>
+    <h1><b>Criar Conta</b></h1>
+
+    <form action="http://www.atdsistemas.com.br/web/formulario/"
+    method="POST" enctype="multipart/form-data">
+    
+    
+        <fieldset id="usuario"><legend>Informações Pessoais</legend>
+            <p>Primeiro Nome: <input type="text" name="nome" id="cNome" placeholder="Nome"></p>
+            <p>Foto: <input type="file" name="foto" id="cFoto"></p>
+            <p>Endereço: <input type="text" name="endereco" id="cEndereco" placeholder="Endereço"></p>
+            <p>Sexo: <br>
+                <input type="radio" name="sexo" id=""/> Masculino <br>
+                <input type="radio" name="sexo" id=""/> Feminino <br>
+                <input type="radio" name="sexo" id=""/> Não Definido
+            </p>
+            <p>Nível de Formação Acadêmica Concluído <select name="formacao" id="cFormacao">
+                <option selected="selected" value="">Nenhuma Formação</option>
+                <option value="1"> Graduação em Andamento</option>
+                <option value="2"> Graduação Completa</option>
+                <option value="3"> Pós-Graduação em Andamento</option>
+                <option value="4"> Pós-Graduação Completa</option>
+
+
+            </select></p>
+            <p>Quem sou eu? <br><textarea name="descricao" id="cQuems" cols="170" rows="3" placeholder="Biografia..."></textarea></p>
+
+        </fieldset>
+
+        <fieldset id="social"><legend>Redes Sociais</legend>
+            <p>Twitter: <input type="text" name="twitter" id="cTwitter"></p>
+            <p>Instagram: <input type="text" name="instagram" id="cInsta"></p>
+            <p>Facebook: <input type="text" name="facebook" id="cFace"></p>
+
+
+        </fieldset>
+
+
+        <fieldset id="login"><legend>Informações de Login</legend>
+            <p>Email: <input type="text" name="email" id="cEmail" placeholder="exemple@abcd.com"></p>
+            <p>Senha: <input type="password" name="senha" id="cSenha" placeholder="Digite sua senha"></p>
+            <p><input type="checkbox" name="lembrar" id="cLembrar"> Lembrar-me</p>
+
+
+
+        </fieldset>
+
+        <button type="reset" name="tLimparrr" value="1">Limpar Campos</button>
+        <button type="submit" name="tEnviarrr" value="2">Enviar</button>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>
