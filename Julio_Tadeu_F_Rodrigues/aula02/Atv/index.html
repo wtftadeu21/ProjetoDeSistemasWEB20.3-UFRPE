@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Formulario WEB</title>
+    <meta author="Júlio Tadeu">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Russo+One&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <h1><b class="font-topoo">Criar Conta</b></h1>
+
+    <form action="http://www.atdsistemas.com.br/web/formulario/"
+    method="POST" enctype="multipart/form-data">
+    
+    
+        <fieldset id="usuario" class="font-blaccc"><legend>Informações Pessoais</legend>
+            <p>Primeiro Nome: <input type="text" name="nome" id="cNome" required class="font-pl" placeholder="Nome"></p>
+            <p>Foto: <input type="file" name="foto" id="cFoto" ></p>
+            <p>Endereço: <input type="text" name="endereco" required id="cEndereco" class="font-pl" placeholder="Endereço"></p>
+            <p>Sexo: <br>
+                <input type="radio" name="sexo" id=""/> Masculino <br>
+                <input type="radio" name="sexo" id=""/> Feminino <br>
+                <input type="radio" name="sexo" id=""/> Indefinido
+            </p>
+            <p>Nível de Formação Acadêmica Concluído <select name="formacao" id="cFormacao">
+                <option selected="selected" value="">Nenhuma Formação</option>
+                <option value="1"> Graduação em Andamento</option>
+                <option value="2"> Graduação Completa</option>
+                <option value="3"> Pós-Graduação em Andamento</option>
+                <option value="4"> Pós-Graduação Completa</option>
+
+
+            </select></p>
+            <p>Quem sou eu? <br><textarea name="descricao" required id="cQuems" cols="150" rows="3" class="font-pl" placeholder="Biografia..."></textarea></p>
+
+        </fieldset>
+
+        <fieldset id="social" class="font-blaccc"><legend>Redes Sociais</legend>
+            <p>Twitter: <input type="text" name="twitter" required id="cTwitter"></p>
+            <p>Instagram: <input type="text" name="instagram" required id="cInsta"></p>
+            <p>Facebook: <input type="text" name="facebook" required id="cFace"></p>
+
+
+        </fieldset>
+
+
+        <fieldset id="login" class="font-blaccc"><legend>Informações de Login</legend>
+            <p>Email: <input type="text" name="email" required id="cEmail" class="font-pl" placeholder="example@abcd.com"></p>
+            <p>Senha: <input type="password" name="senha" required id="cSenha" class="font-pl" placeholder="Digite sua senha"></p>
+            <p><input type="checkbox" name="lembrar" id="cLembrar"> Lembrar-me</p>
+
+
+
+        </fieldset>
+
+        <button type="reset" name="tLimparrr" value="1" class="font-bot">Limpar </button>
+        <button type="submit" name="tEnviarrr" value="2" class="font-bot">Enviar </button>
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+    background-image: url("https://www.infomoney.com.br/wp-content/uploads/2019/10/shutterstock_1422026900.jpg?fit=1024%2C683&quality=75&strip=all");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+p {
+    background-color: teal;
+    font-size: 15px;
+    color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: white;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+
+}
+
+
+.font-bot {
+    font-size: 15px;
+    color: white;
+    border-style: outset;
+    border-width: 2px;
+    border-color: white;
+    font-family: 'Russo One', sans-serif;
+    color: black;
+}
+
+.font-blaccc {
+    font-size: 25px;
+    font-family: 'Krona One', sans-serif;
+    color: black;
+    border-style: outset;
+    border-width: 3px;
+}
+
+.font-topoo {
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+    
+    
+}
+
+
+.font-pl{
+    border-style: outset;
+    font-size: 15px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+button {
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: teal;
+}
+
+option {
+    background-color: teal;
+    font-family: 'Russo One', sans-serif;
+
+
+}
